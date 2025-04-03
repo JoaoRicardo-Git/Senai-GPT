@@ -12,9 +12,26 @@
 
 }
 
+.bnt-chat {
+
+    width: 100%;
+    background-color: transparent;
+    padding: 10px;
+    color: black;
+    border: none;
+    border-radius: 12px;
+    margin-bottom: 10px;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
 .central-panel {
 
-    height: 100vh;
+    margin-top: 160px;
+    height: 80vh;
     width: 80vw;
     background-color: white;
     display: flex;
@@ -24,11 +41,6 @@
     gap: 100px;
 }
 
-.example {
-
-    
-
-}
 
 .texs {
 
@@ -41,9 +53,21 @@
 
 .texs h1 {
 
+    display: flex;
     text-align: center;
+    flex-direction: column;
+    align-items: center;
 
 }
+
+.central-imgs {
+
+    height: 40px;
+    width: 40px;
+
+
+}
+
 .texs p {
 
     background-color: #f0f3f6;
@@ -109,16 +133,40 @@
     width: 100%;
     font-size: 16px;
     cursor: pointer;
+    
 
 }
 
 input {
 
     background-color: white;
-    height: 56px;
-    width: 760px;
     padding: 16, 20, 16, 20;
-    margin-top: 10vw;
     border-radius: 8px;
+
+}
+
+.input-conteiner {
+
+    margin-top: auto;
+    margin-bottom: 10px;
+
+    display: flex;
+    align-items: center;
+
+    border: none;
+    background-color: #f7f9fb;
+
+    border-radius: 16px;
+
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.input-conteiner input {
+
+    border: none;
+    padding: 20px;
+    background-color: transparent;
+    width: 40vw;
 
 }

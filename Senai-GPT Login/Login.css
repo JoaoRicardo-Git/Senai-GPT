@@ -21,7 +21,32 @@ h1 {
     margin-bottom: 16px;
 }
 
+.inpt {
 
+    padding: 18px;
+    /* Edita o espaçamento do bloco / externo */
+    border: none;
+    /* Remove a borda ou altera */
+    background-color: #F7F9FB;
+    /* Muda a cor da caixa */
+    border-radius: 10px;
+    /* muda a ondulação das bordas */
+    width: 377px;
+    /* altera a largura */
+    margin-bottom: 16px;
+    /* Espacamento */
+}
+
+.btn {
+
+    padding: 18px;
+    background-color: black;
+    color: white;
+    border: none; /*altura*/
+    width: 377px; /*largura*/
+    border-radius: 10px; /* Arredonda as bordas */
+    cursor: pointer;
+}
 
 .Login-container {
 
